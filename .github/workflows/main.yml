@@ -15,7 +15,7 @@ jobs:
 
       # 2. Setup Node.js + npm cache
       - name: Setup Node.js
-        uses: actions/setup-node@v6.4.0
+        uses: actions/setup-node@v6.2.0
         with:
           node-version: 22.x
           cache: npm
